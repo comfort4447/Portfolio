@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import {BsSunFill, BsFillMoonFill} from 'react-icons/bs'
+import { BsSunFill, BsFillMoonFill } from 'react-icons/bs'
 import { ThemeContext } from '../Context'
 
 export default function Toggle() {
