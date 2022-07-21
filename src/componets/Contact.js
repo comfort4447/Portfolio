@@ -53,7 +53,6 @@ export default function Contact() {
             <b>What's your story? </b>Get in touch. 
             Always available for freelancing if the right project comes along.
           </div>
-
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode ? "#333" : "white"}} type= "text" placeholder='Name' name='user_name' />
             <input style={{backgroundColor: darkMode ? "#333" : "white"}} type= "text" placeholder='Subject' name='user_subject' />
